@@ -4,29 +4,63 @@ body {
     padding-top: 1%;
     padding-bottom: 0%;
 }
-#section0 {
+#home {
   padding-left: 0px;
   padding-top:0px;
-  height:745px;
+  height:100%;
   color: #fff;
-  background-color: black;}
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: white;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: white;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: white;}
-#section41 {padding-top:50px;height:500px;color: #fff; background-color: white;}
-#links {padding-top:50px;height:350px;color: #fff; background-color: #05042E;}
+  background-color: black;
+}
+#section1 {
+  padding-top:50px;
+  height:100%;
+  color: #fff;
+  background-color: white;
+}
+#section2 {
+  padding-top:50px;
+  height:100%;
+  color: #fff;
+  background-color: white;
+}
+#section3 {
+  padding-top:50px;
+  height:100%;
+  color: #fff;
+  background-color: white;
+}
+#section41 {
+  padding-top:50px;
+  height:100%;
+  color: #fff;
+  background-color: white;
+}
+#links {
+  padding-top:50px;
+  height:350px;
+  color: #fff;
+  background-color: #05042E;
+}
+.navbar{
+  position: relative;
+  background-color: #05042E;
+  text-align: right;
+  padding-left: 7%;
+
+}
 .container {
   position: relative;
+  size: 1vw;
   text-align: center;
   color: black;
 }
 
 .webclub{
   position: absolute;
-  font-size: 110%;
+  font-size: 2vw;
   text-align: left;
-  font-size: 50px;
-  font-family: fantasy;
+  font-weight: 800;
+  font-family: ;
   top: 30%;
   left: 18%;
 }
@@ -34,8 +68,9 @@ body {
 .centered {
   position: absolute;
   text-align: left;
-  font-weight: bolder;
+  font-weight: 400;
   font-family: inherit;
+  font-size:1vw;
   top: 60%;
   left: 60%;
   transform: translate(-50%, -50%);

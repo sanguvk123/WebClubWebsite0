@@ -4,13 +4,13 @@ body {
     padding-top: 1%;
     padding-bottom: 0%;
 }
-#section0 {
+#home {
   padding-left: 0px;
   padding-top:0px;
   height:745px;
   color: #fff;
   background-color: black;}
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: white;}
+#sigs {padding-top:50px;height:500px;color: #fff; background-color: white;}
 #section2 {padding-top:50px;height:500px;color: #fff; background-color: white;}
 #section3 {padding-top:50px;height:500px;color: #fff; background-color: white;}
 #section41 {padding-top:50px;height:500px;color: #fff; background-color: white;}
@@ -21,6 +21,16 @@ body {
   color: black;
 }
 
+.button1{
+  background-color: maroon;
+  border: none;
+  border-radius: 100%;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  size:50px;
+  margin: 4px 2px;
+}
 .webclub{
   position: absolute;
   font-size: 110%;
@@ -51,4 +61,53 @@ h1{
 
 .container-fluid4b{
   padding: 10%;
+}
+
+
+.media{
+  align-items: center;
+  text-align: center;
+  size: 5%;
+}
+.fa {
+  padding: 1.5%;
+  font-size: 80px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #05042E;
+  color: white;
+}
+
+.fa-twitter {
+  background: #05042E;
+  color: white;
+}
+
+.fa-google {
+  background: #05042E;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #05042E;
+  color: white;
+}
+
+.fa-youtube {
+  background: #05042E;
+  color: white;
+}
+
+.fa-instagram {
+  background: #05042E;
+  color: white;
 }
